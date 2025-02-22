@@ -16,7 +16,7 @@ This project classifies disaster-related messages into various categories, enabl
    - Exports the final model as a pickle file.
 
 3. **Flask Web App (run.py)**
-   - Serves an interface for entering messages to classify.
+   - Serves as an interface for entering messages to classify.
    - Displays classification results for each category.
    - Visualizes dataset distributions.
 
@@ -35,8 +35,6 @@ Disaster-Response-Pipeline/
 │   └── process_data.py       # ETL script
 ├── models
 │   ├── train_classifier.py   # ML pipeline
-│   └── classifier.pkl        # Trained model (exported by ML pipeline)
-├── notebooks                 # (Optional) Jupyter notebooks for EDA
 ├── requirements.txt          # Dependencies
 └── README.md                 # Project Documentation
 ```
